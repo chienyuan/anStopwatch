@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent">
+	<TableRow>
+		<TextView android:text="Stopwatch: " android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<TextView android:text="00:00.00" android:id="@+id/stopwatch_text" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<Button android:text="Start" android:id="@+id/start" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+		<Button android:text="Reset" android:id="@+id/reset" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+	</TableRow>
+	<TableRow>
+		<TextView android:text="Split: " android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<TextView android:text="" android:id="@+id/split_text" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<Button android:text="Split" android:id="@+id/split" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+		<Button android:text="Split Reset" android:id="@+id/split_reset" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+	</TableRow>
+	<TableRow>
+		<TextView android:text="Laps: " android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<TextView android:text="" android:id="@+id/lap_text" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<Button android:text="New Lap" android:id="@+id/new_lap" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+		<Button android:text="Lap Reset" android:id="@+id/lap_reset" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+	</TableRow>
+	<TextView android:text="" android:id="@+id/lap_list" android:layout_width="fill_parent" android:layout_height="fill_parent"></TextView>
+</TableLayout>
